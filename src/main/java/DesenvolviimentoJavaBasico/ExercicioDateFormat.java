@@ -10,7 +10,7 @@ public class ExercicioDateFormat {
 
         Date dia = new Date();
 
-        SimpleDateFormat formatar =new SimpleDateFormat( "DD/MM/YYYY " + "e a Hora é : "+ "HH:MM:SS: MMMM");
+        SimpleDateFormat formatar =new SimpleDateFormat( "dd/MM/yyyy " + "HH:mm:ss: MMMM");
 
         String dataFormatada = formatar.format(dia);
 
